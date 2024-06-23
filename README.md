@@ -15,4 +15,6 @@ OPEN_WEATHER_API_KEY=/*YOUR_OPEN_WEATHER_API_KEY*/
 ```
 Run `npm i` command on the root directory
 
-Run `npm run dev` and you are good to go
+Run `npm run dev` and the setup is ready
+
+Go to `http://localhost:3000/home` in your browser
