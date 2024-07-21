@@ -1,8 +1,12 @@
 // import logo from './logo.svg';
 // import './App.css';
+
+import Stardust from './assets/Stardust.svg'
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import ImageComponent from './ImageComponent';
 
 
 function App() {
@@ -12,7 +16,7 @@ function App() {
         <Container>
         <img
               alt=""
-              src="assets/Stardust.svg"
+              src={Stardust}
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -29,6 +33,8 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <ImageComponent/>
+      
       
     </>
   );
