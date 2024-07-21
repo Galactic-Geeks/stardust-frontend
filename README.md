@@ -18,3 +18,5 @@ Run `npm i` command on the root directory
 Run `npm run dev` and the setup is ready
 
 Go to `http://localhost:3000/home` in your browser
+
+Astronomy Events Finder ~ Amey, Ragul, Moniska
